@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Venta extends Model
 {
     protected $table = 'ventas';
+    const UPDATED_AT = null;
 
     protected $fillable = [
         'cliente_id', 'total', 'forma_pago', 'estado'
